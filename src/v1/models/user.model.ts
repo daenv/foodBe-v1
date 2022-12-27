@@ -25,4 +25,4 @@ export const UserSchema = new Schema<User>({
   }
 });
 // @ts-ignore
-module.exports = Model<User>("User", UserSchema);
+export const UserModel = Model<User>("User", UserSchema);
